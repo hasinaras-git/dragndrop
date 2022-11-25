@@ -1,0 +1,27 @@
+.head-btn {
+    background-color: rgb(0, 102, 255);
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 14px;
+    color: white;
+    margin: 8px;
+    width: 110px;
+    cursor: pointer;
+    &:hover {
+        background-color:rgb(40, 125, 253);
+    }
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    h2 {
+        margin-bottom: 0;
+    }
+}
+
+.btn-container {
+    position: relative;
+    top: 18px;
+}

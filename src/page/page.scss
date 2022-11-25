@@ -1,0 +1,19 @@
+.page {
+    min-height: 100vh;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    // border-radius: 15px;
+    // box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.178), -3px -3px 3px rgba(0, 0, 0, 0.178);
+    display: flex;
+    gap: 17px;
+    flex-direction: column;
+}
+
+.page-container {
+    width: 100%;
+}
+
+.drag-over {
+    background-color: #f3f3f3;
+}
